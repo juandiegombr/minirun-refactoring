@@ -1,0 +1,4 @@
+#!/bin/sh
+
+docker build -t minirun-refactoring-js:latest .
+docker run --rm -it minirun-refactoring-js:latest npm run test

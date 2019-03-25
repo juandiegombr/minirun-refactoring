@@ -1,0 +1,4 @@
+#!/bin/sh
+
+docker build -t minirun-refactoring-ruby:latest .
+docker run --rm -it minirun-refactoring-ruby:latest bundle exec rspec
