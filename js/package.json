@@ -7,7 +7,9 @@
     "type": "git",
     "url": "https://gitlab.com/devscola/minirun-refactoring.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "prompt": "^1.0.0"
+  },
   "devDependencies": {
     "jest": "^24.1"
   },

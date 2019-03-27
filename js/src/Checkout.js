@@ -1,6 +1,11 @@
 class Checkout {
+    constructor(pricing_rules) {
+    }
+
     scan(item) {
-        console.log(item)
+    }
+
+    total() {
     }
 }
 

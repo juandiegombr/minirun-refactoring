@@ -2,7 +2,7 @@
 
 ## Requisitos
 
-Para poder ejecutar este ejercicion te basta con tener instalado `docker`. Si prefieres la instalación en local, necesitarás `ruby`, `gem` y tener instalada la gema `bundler`.
+Para poder trabajar sobre este ejercicio te basta con tener instalado `docker`. Si prefieres la instalación en local, necesitarás `ruby`, `gem` y tener instalada la gema `bundler`.
 
 ## Como usar con docker
 
