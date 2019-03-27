@@ -1,9 +1,12 @@
-## Funcionalidad del código
+# MiniRun Refactoring
+
+Este es el repositorio con el que vamos a trabajar. Dentro está el código de un sistema de pago implementado en diferentes lenguajes. El código es el mismo en todos.
+
+## Funcionalidad
 
 Este código implementa un sistema de pago que calcula el precio total de una serie de artículos.
 
 En un supermercado normal, las cosas se identifican mediante unidades de mantenimiento de stock. En nuestra tienda, usaremos letras individuales del alfabeto (A, B, C, etc.). Nuestros productos tienen un precio individual. Además, algunos artículos tienen varias tarifas: compre uno de ellos y le costarán X centimos. Por ejemplo, el artículo "A" puede costar 50 centimos individualmente, pero esta semana tenemos una oferta especial: compre tres "A" y le costarán 1.30 €. Los precios de esta semana son:
-
 
 | Unidad | Precio unitario | Precio especial |
 |--------|-----------------|-----------------|
@@ -28,16 +31,25 @@ Ejemplos:
 - AAAAAA = 260
 - AAAABBD = 190
 
-
 ## Código
 
 La interfaz pública de nuestra clase Checkout tiene dos métodos:
-- scan: para scanear el artículo
-- total: para devolver el precio total
 
-Además, para construir un objeto Checkout, necesitamos pasarle un objeto PricingRules:
+- `scan`: para scanear el artículo
+- `total`: para devolver el precio total
 
-- `new Checkout(new PricingRule())`
+Además, le inyectaremos las PricingRules por el constructor.
+
+```RUBY
+class PricingRules
+
+class Checkout
+    constructor(pricing_rules)
+    scan(item)
+    total()
+```
+
+**Importante**: La clase Checkout se usa en muchos sitios de nuestro sistema, y modificar su interfaz pública no es una buena idea, así que no lo haremos.
 
 ## Infraesctructura
 
@@ -47,5 +59,4 @@ En este repositorio encontraréis el código de la kata en tres lenguajes:
 - JavaScript
 - PHP
 
-Además existe un *docker* para poder tener la infrastructura básica para poder ejecutar el código. Podéis acceder desde el directorio del lenguaje que elijáis ejecutando: `docker/console`
-
+Todo está preparado con **docker** para que no tengais que instalar nada y podais poneros directamente con el ejercicio. Dentro de cada carpeta está el código de cada lenguaje con un **README.md** explicando como usarlo.
