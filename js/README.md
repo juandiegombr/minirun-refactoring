@@ -63,7 +63,7 @@ Successfully built 6dea1e803a92
 Successfully tagged minirun-refactoring-js:latest
 Puts items to buy:
 prompt: items:  ABC
-Total price: undefined
+Total price: 100
 ```
 
 ### docker/test

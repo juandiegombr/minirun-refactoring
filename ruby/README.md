@@ -33,6 +33,7 @@ Successfully tagged minirun-refactoring-ruby:latest
 
 This command opens a irb console. To load your code run:
     require_relative 'lib/checkout'
+    require_relative 'lib/pricing_rules'
 To quit, run:
     exit
 

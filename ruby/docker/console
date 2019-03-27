@@ -5,6 +5,7 @@ docker build -t minirun-refactoring-ruby:latest .
 echo ""
 echo "This command opens a irb console. To load your code run:"
 echo "    require_relative 'lib/checkout'"
+echo "    require_relative 'lib/pricing_rules'"
 echo "To quit, run:"
 echo "    exit"
 echo ""
