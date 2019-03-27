@@ -1,5 +1,4 @@
-
-## Funcionalidad del coódigo
+## Funcionalidad del código
 
 Este código implementa un sistema de pago que calcula el precio total de una serie de artículos.
 
