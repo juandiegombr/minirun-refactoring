@@ -1,0 +1,12 @@
+#!/bin/sh
+
+docker build -t minirun-refactoring-php:latest .
+
+echo ""
+echo "This command opens a php interactive shell. To run your code:"
+echo "    \$checkout = new Checkout\\Checkout(new Checkout\\PricingRules());"
+echo "To quit, run:"
+echo "    exit"
+echo ""
+
+docker run --rm -it minirun-refactoring-php:latest php -a -d auto_prepend_file=vendor/autoload.php

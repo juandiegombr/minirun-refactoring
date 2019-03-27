@@ -1,0 +1,4 @@
+#!/bin/sh
+
+docker build -t minirun-refactoring-php:latest .
+docker run --rm -it minirun-refactoring-php:latest php src/cli.php
