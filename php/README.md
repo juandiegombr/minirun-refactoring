@@ -1,4 +1,4 @@
-# Checkout.rb
+# Checkout.php
 
 ## Requisitos
 
