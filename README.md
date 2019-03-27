@@ -35,13 +35,17 @@ La interfaz pública de nuestra clase Checkout tiene dos métodos:
 - scan: para scanear el artículo
 - total: para devolver el precio total
 
+Además, para construir un objeto Checkout, necesitamos pasarle un objeto PricingRules:
+
+- `new Checkout(new PricingRule())`
+
 ## Infraesctructura
 
 En este repositorio encontraréis el código de la kata en tres lenguajes:
 
--Ruby
--Javascript
--PHP
+- Ruby
+- JavaScript
+- PHP
 
-Además existe un *docker* para poder tener la infrastructura basica para poder ejecutar el código. Podéis acceder desde el directorio del lenguaje que elijáis ejecutando: `docker/console`
+Además existe un *docker* para poder tener la infrastructura básica para poder ejecutar el código. Podéis acceder desde el directorio del lenguaje que elijáis ejecutando: `docker/console`
 
