@@ -2,7 +2,7 @@
 
 Este es el repositorio con el que vamos a trabajar. Dentro está el código de un sistema de pago implementado en diferentes lenguajes. El código es el mismo en todos.
 
-## Funcionalidad
+## Funcionalidad Existente
 
 Este código implementa un sistema de pago que calcula el precio total de una serie de artículos.
 
@@ -30,6 +30,16 @@ Ejemplos:
 - DABABA = 190
 - AAAAAA = 260
 - AAAABBD = 190
+
+## Funcionalidad nueva
+
+Si se compran juntos un A, un B y un C, y no se ha aplicado ningun otro descuento, se descontarán 5 euros del precio final.
+
+Ejemplos:
+
+- ABCD = 110
+- ABC = 95
+- AAABC = 180
 
 ## Código
 
