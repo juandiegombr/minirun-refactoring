@@ -1,6 +1,7 @@
 {
-    "name": "vibaiher/checkout",
+    "name": "devscola/checkout",
     "type": "library",
+    "description": "Checkout kata for minirun-refactoring 2019",
     "autoload": {
         "classmap": [
             "src/"
