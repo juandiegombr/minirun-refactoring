@@ -1,8 +1,9 @@
 # MiniRun Refactoring
 
 Este es el repositorio con el que vamos a trabajar. Dentro está el código de un sistema de pago implementado en diferentes lenguajes. El código es el mismo en todos.
+Lo que se pretende con este ejercicio es, en base a un código legacy, hacer los cambios necesarios para implementar un nuevo descuento (Ver los dos siguientes puntos).
 
-## Funcionalidad Existente
+## Funcionalidad existente
 
 Este código implementa un sistema de pago que calcula el precio total de una serie de artículos.
 
