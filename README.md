@@ -23,14 +23,14 @@ Ejemplos:
 - AB = 80
 - AA = 100
 - AAA = 130
-- CDBA = 115
+- CDBA = 115 -> 110
 - AAAA = 180
 - AAAB = 160
 - AAABB = 175
 - AAAAA = 230
 - DABABA = 190
 - AAAAAA = 260
-- AAAABBD = 190
+- AAAABBD = 240
 
 ## Funcionalidad nueva
 
